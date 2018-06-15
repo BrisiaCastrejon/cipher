@@ -1,0 +1,73 @@
+body {
+  background-image: url(IMG/6.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /* color: #00FF00; */
+}
+#titulo {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+#cajita {
+  background-image: url(IMG/6.6.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 20px;
+  margin: 50px 780px;
+  width: 500px;
+  text-align: center;
+  border: 2px dotted;
+  color: #000000;
+  }
+
+  .p1 {
+    color: yellow;
+  }
+
+  .p2 {
+    color: green;
+  }
+
+  .p3 {
+    color: blue;
+  }
+
+  .p4 {
+    color: white;
+  }
+
+.a {
+  /* padding: 20px; */
+  margin: 10px auto;
+  color: white;
+  position: relative;
+  bottom: 550px;
+  font-size: 20px;
+}
+
+ #b {
+   position: relative;
+   bottom: 540px;
+
+ }
+
+.fondo {
+  background: rgba(241, 196, 15, .3);
+  color: rgb(255, 255, 71);
+  border: 2px dotted;
+}
+
+.fondo2 {
+  background: rgba(26, 188, 156, .5);
+  color: rgb(141, 255, 0);
+  border: 2px dotted;
+}
+
+.pie {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  top: auto;
+}

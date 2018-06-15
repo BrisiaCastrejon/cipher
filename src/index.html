@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cumpleaños Flaco</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="IMG/1.ico">
+  </head>
+  <body>
+    <header>
+        <div id="titulo">
+          <h1>🍻 ✌ LA MERA PARTY 🎊 🎂</h1>
+        </div>
+
+        <div id="cajita">
+        <div class="p1">
+        <p> <strong> Que ondi... </strong> <br> Si estas aquí, es porque sabes que mi flaco es bien chismoso y siempre revisa mi celular. Por lo que he ideado esta web, para poder organizar los preparativos de su fiesta junto contigo, y sin que él se de cuenta obviamente. <br> <br> No te preocupes, todas tus sugerencias son geniales. Diviertete proponiendo y nos vemos ese día, que por cierto aún queda por confirmar. <br> </p>
+        </div>
+        <div class="p2">
+        <p>Besos :D</p>
+        </div>
+        <div class="p3">
+        <p><strong>INSTRUCCIONES:</strong> <br> Antes de escribir tus propuestas recuerda una cosa, es <strong> importante </strong> que recuerdes la llave (número que seleccionaste para el cifrado) para posteriormente descifrar el mensajito. </p>
+        </div>
+        <div class="p4">
+        <p> <br> Ahora si, en la cajita de texto que dice <strong> Escribe el texto que quieres cifrar </strong> escribe la idea o ideas para la fiesta. Una vez que hayas terminado, da click en el boton <strong> Cifrar </strong> y tendrás tu texto cifrado. <br> Ahora bien, si quieres entender esa linea de letras locas, deberas copiar el texto que te arroja la segunda cajita y <strong> pegarlo </strong> en la primera, en donde originalmente escribiste tu idea, <strong> selecciona la llave </strong> y da click en el boton <strong> Descifrar </strong>, la cajita dos te arrojará tu mensaje legible. <br> <br> Y pues nada, que comience la planeación y diviertete compartiendo tus ideas conmigo. </p> <strong> NOS VEMOS ALLÁ </strong>  
+        </div>
+        </div>
+      </header>
+        <main>
+
+        <div class="a">
+          <span> Escribe el texto que quieres cifrar </span>
+        </div>
+
+        <div id="b">
+          <br>
+
+          <textarea class="fondo" name="texto" rows="8" cols="80" placeholder="Tu mensaje a cifrar" id= "caja1"></textarea>
+          <br>
+          <br>
+
+          <input type="number" id= "numero" min= "0"  max="35" value="0">
+          <br>
+          <br>
+
+        <!--  <button id="boton1"  type="button" value="button">Cifrar</button> -->
+
+          <input id="boton1"  type="button" name="" value="Cifrar">
+
+
+          <button id="boton2"  type="button" value= "button">Descifrar</button>
+          <br>
+         <br>
+
+         <textarea class="fondo2" name="texto" rows="8" cols="80" placeholder="Tu mensaje cifrado" id= "caja2"></textarea>
+        <br>
+      </div>
+      <!--  <button type="button" value="button" onclick="reset()">Otro mensaje</button> -->
+
+      </main>
+      <footer class="pie"> Copyright (c) Brisia 2018 Copyright Holder All Rights Reserved.</footer>
+      <div id="root"></div>
+
+    <div id="root"></div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
