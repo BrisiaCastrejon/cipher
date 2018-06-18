@@ -1,7 +1,7 @@
 let botonCifrar= document.getElementById("boton1");
 let botonDescifrar= document.getElementById("boton2");
 let mensaje1= document.getElementById("caja1");
-let llave= (document.getElementById("numero"));
+let llave= document.getElementById("numero");
 let mensaje2= document.getElementById("caja2");
 //let resultado;
 

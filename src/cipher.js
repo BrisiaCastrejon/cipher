@@ -23,7 +23,7 @@ window.cipher = {
 
 }
 
-  mensaje2.value= normal;
+//  mensaje2.value= normal;
 //  mensaje1.value= normal;
   return normal;
 //  console.log(resultado); return
@@ -56,7 +56,7 @@ console.log(normal);
 
 }
 
-mensaje2.value= normal;
+//mensaje2.value= normal;
 //  mensaje1.value= normal;
 return normal;
 //  console.log(resultado); return

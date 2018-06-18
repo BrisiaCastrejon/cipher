@@ -1,73 +1,90 @@
 body {
-  background-image: url(IMG/6.jpg);
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  /* color: #00FF00; */
+  /* background-color: rgba(47, 79, 79, .5); */
+background-image: url(IMG/4.jpg);
+background-attachment: fixed;
+background-size: 100%;
+color: white;
 }
-#titulo {
+
+#pared {
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
   text-align: center;
-  font-size: 25px;
-  color: white;
+  position: absolute;
+  top: 10%;
+  border-radius: 10px;
 }
 
 #cajita {
-  background-image: url(IMG/6.6.jpg);
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  padding: 20px;
-  margin: 50px 780px;
-  width: 500px;
+  background: rgba(0, 0, 0, .7);
   text-align: center;
-  border: 2px dotted;
-  color: #000000;
-  }
-
-  .p1 {
-    color: yellow;
-  }
-
-  .p2 {
-    color: green;
-  }
-
-  .p3 {
-    color: blue;
-  }
-
-  .p4 {
-    color: white;
-  }
-
-.a {
-  /* padding: 20px; */
-  margin: 10px auto;
-  color: white;
-  position: relative;
-  bottom: 550px;
-  font-size: 20px;
+  width: 50%;
+  position: absolute;
+  top: 28%;
+/*  border-radius: 10px; */
 }
 
- #b {
-   position: relative;
-   bottom: 540px;
+.a {
+  background: rgba(0, 0, 0, .7);
+  width: 20%;
+  font-family: Arial;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 55%;
+}
 
- }
+.p1, .p2, .p3, .p4 {
+  font-family: Arial; Helvetica;
+  font-size: 16px;
+}
+
+#b {
+  /* text-align: center;*/
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 55%;
+}
 
 .fondo {
-  background: rgba(241, 196, 15, .3);
-  color: rgb(255, 255, 71);
-  border: 2px dotted;
+  background: rgba(112, 128, 144, .7);
+  color: #FFFF00;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .fondo2 {
-  background: rgba(26, 188, 156, .5);
-  color: rgb(141, 255, 0);
-  border: 2px dotted;
+  background: rgba(119, 136, 153, .7);
+  color: #00FF00;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.fondo3 {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.color1:hover {
+  background: rgba(187, 143, 206, .7);
+  color: black;
+  font-weight: bold;
+}
+
+.color2:hover {
+  background: rgba(84, 153, 199, .7);
+  color: black;
+  font-weight: bold;
 }
 
 .pie {
+  background: rgba(0, 0, 0, .7);
+  width: 30%;
+  font-family: cursive;
+  font-size: 12px;
   text-align: center;
-  font-size: 30px;
-  color: white;
-  top: auto;
+  position: absolute;
+  top: 100%;
+  left: 68%;
 }
